@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Rastreador de endereço IP</title>
+
+  <!-- font- -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+  <!-- leaflet css -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+  <!-- mapbox -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+
+  <link rel="stylesheet" href="styles.css">
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg-pattern">    
+    <img src="images/pattern-bg.png" class="bgptrn" alt="">
+  </div>
+
+
+  <h1 class="heading">Rastreador de endereço IP</h1>
+  <div class="searchbar">
+    <input id="ipAddress" type="text" name="ipAddress" class="search" placeholder="Pesquise qualquer endereço IP ou domínio">
+    <button type="button" onclick="search()" id="srchbtn" class="gobtn"><img src="images/icon-arrow.svg" class="arrow" alt=""></button>
+  </div>
+
+  <div class="information">
+    <div class="ipadd">
+      <h2 class="subhead ip">Endereço de IP</h2>
+      <h3 id="box1">0.0.0.0</h3>
+      <div class="rule"></div>
+    </div>
+    <div class="location">
+      <h2 class="subhead">Localização</h2>
+      <h3 id="box2">Location</h3>
+      <div class="rule"></div>
+    </div>
+    <div class="timezone">
+      <h2 class="subhead">Fuso horário</h2>
+      <h3 id="box3">UTC-0:00</h3>
+      <div class="rule"></div>
+    </div>
+    <div class="utc">
+      <h2 class="subhead">ISP</h2>
+      <h3 id="box4">Internet Services Provider</h3> <!-- add offset value dynamically using the API -->
+    </div>
+  </div>
+
+  <div id="mapid"></div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/riteessshh">riteessshh</a>.
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="indx.js" charset="utf-8"></script>
+</body>
+
+</html>
