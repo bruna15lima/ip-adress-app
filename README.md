@@ -1,14 +1,13 @@
-﻿# IP Address Tracker
+﻿# Rastreador de endereço IP
 
 Pesquise quaisquer endereços IP ou domínios e veja as principais informações e localização
 
-## Welcome! 👋
+## Welcome! 👋 https://ip-adress-app.vercel.app/
 
-Thanks for checking out this front-end coding challenge.
+Obrigado por verificar esta codificação de front-end.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+** Para fazer este desafio, eu usei um conhecimento básico de HTML, CSS e JavaScript. **
 
 ## Veja seu próprio endereço IP no mapa no carregamento da página inicial
 
@@ -20,4 +19,9 @@ Práticas recomendadas de chave de API do Google Developers
 Como usar o Mapbox com segurança
 Expor sua chave de API publicamente pode fazer com que outras pessoas a usem para fazer solicitações para seus próprios aplicativos, se as precauções adequadas não estiverem em vigor. Por favor, certifique-se de ler os guias completamente e seguir suas recomendações.. Please share it with anyone who will find it useful for practice.
 
-**Have fun building!** 🚀
+** Divirta-se construindo!** 🚀
+
+🦸 Autor
+Bruna Calheiros[🚀]
+
+Feito com muito ❤️ por bruna15lima 👋🏽 [Entre em contato!]
