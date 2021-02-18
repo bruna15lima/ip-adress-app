@@ -15,9 +15,9 @@ Obrigado por verificar esta codificação de front-end.
 
 Para a API de mapeamento, recomendamos o uso do LeafletJS. O uso é gratuito e não requer uma chave API. Se você decidir usar outra API, como Google Maps ou Mapbox, certifique-se de proteger sua chave de API. Aqui estão os guias para o Google Maps e o Mapbox, certifique-se de lê-los completamente:
 
-Práticas recomendadas de chave de API do Google Developers
+Práticas  de chave de API do Google Developers
 Como usar o Mapbox com segurança
-Expor sua chave de API publicamente pode fazer com que outras pessoas a usem para fazer solicitações para seus próprios aplicativos, se as precauções adequadas não estiverem em vigor. Por favor, certifique-se de ler os guias completamente e seguir suas recomendações.. Please share it with anyone who will find it useful for practice.
+Expor sua chave de API publicamente pode fazer com que outras pessoas a usem para fazer solicitações para seus próprios aplicativos, se as precauções adequadas não estiverem em vigor. Por favor, certifique-se de ler os guias completamente e seguir suas recomendações.. Compartilhe-o com qualquer pessoa que o considere útil para a prática.
 
 ** Divirta-se construindo!** 🚀
 
