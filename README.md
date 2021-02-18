@@ -2,7 +2,7 @@
 
 Pesquise quaisquer endereços IP ou domínios e veja as principais informações e localização
 
-## Welcome! 👋
+## Welcome! 👋 https://ip-adress-app.vercel.app/
 
 Obrigado por verificar esta codificação de front-end.
 
@@ -20,3 +20,8 @@ Como usar o Mapbox com segurança
 Expor sua chave de API publicamente pode fazer com que outras pessoas a usem para fazer solicitações para seus próprios aplicativos, se as precauções adequadas não estiverem em vigor. Por favor, certifique-se de ler os guias completamente e seguir suas recomendações.. Please share it with anyone who will find it useful for practice.
 
 ** Divirta-se construindo!** 🚀
+
+🦸 Autor
+Bruna Calheiros[🚀]
+
+Feito com muito ❤️ por bruna15lima 👋🏽 [Entre em contato!]
